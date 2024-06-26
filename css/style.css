@@ -1031,3 +1031,13 @@ html[data-menu=leftmenu] #wrapper
 .title-first-word{
     color:#fc0303 !important ;
 }
+
+/* .menu-image img{
+    height: 400px;
+    width: 400px;
+} */
+
+.one_fourth img{
+    width: 400px;
+    height: 400px;
+}

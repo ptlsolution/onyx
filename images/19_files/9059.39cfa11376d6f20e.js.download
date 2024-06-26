@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[9059],{99059:function(e,t,i){i.r(t),i.d(t,{DynamicSectionSkeleton:function(){return h}});var l=i(52322),n=i(84531),c=i(23622);let h=()=>(0,l.jsx)(c.i,{title:(0,l.jsx)(n.O.Rect,{width:300,height:"full"}),children:(0,l.jsx)(n.O.Rect,{height:"full",width:"full"})})}}]);
