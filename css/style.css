@@ -145,7 +145,7 @@ body,
     a:hover,
     a:active,
     .post_info_comment a i {
-        color: #fc0303;
+        color: #fc9003;
     }
     
     h1,
@@ -243,7 +243,7 @@ body,
     
     .menu_content_classic .menu_highlight,
     .menu_content_classic .menu_order {
-        background-color: #fc0303;
+        background-color: #fcad03;
     }
     
     input[type=text],
@@ -355,13 +355,13 @@ body,
     #menu_wrapper .nav ul li a:hover,
     #menu_wrapper div .nav li a.hover,
     #menu_wrapper div .nav li a:hover {
-        color: #fc0303;
+        color: #fc9003;
     }
     
     #menu_wrapper div .nav > li.current-menu-item > a,
     #menu_wrapper div .nav > li.current-menu-parent > a,
     #menu_wrapper div .nav > li.current-menu-ancestor > a {
-        color: #fc0303;
+        color: #fc9003;
     }
     
     .top_bar {
@@ -423,7 +423,7 @@ body,
     }
     
     .above_top_bar {
-        background: #fc0303;
+        background: #fc9003;
     }
     
     .above_top_bar,
@@ -505,7 +505,7 @@ body,
         font-family: Kristi, "Comic Sans MS", cursive, sans-serif;
         font-size: 70px;
         line-height: 50px;
-        color: #fc0303;
+        color: #fc9003;
     }
     
     #page_caption.hasbg {
@@ -518,7 +518,7 @@ body,
     }
     
     .page_header_sep {
-        border-color: #fc0303;
+        border-color: #fc9003;
     }
     
     .page_tagline,
@@ -583,7 +583,7 @@ body,
     #page_content_wrapper .inner .sidebar_wrapper a:active,
     .page_content_wrapper .inner .sidebar_wrapper a:hover,
     .page_content_wrapper .inner .sidebar_wrapper a:active {
-        color: #fc0303;
+        color: #fc9003;
     }
     
     #page_content_wrapper .sidebar .content .sidebar_widget li h2.widgettitle,
@@ -621,7 +621,7 @@ body,
     #footer a:hover,
     .social_wrapper ul li a:hover,
     #footer_before_widget_text a:hover {
-        color: #fc0303;
+        color: #fc9003;
     }
     
     .footer_bar_wrapper {
@@ -665,11 +665,11 @@ body,
     .woocommerce-page #content div.product span.price,
     .woocommerce-page div.product p.price,
     .woocommerce-page div.product span.price {
-        color: #fc0303;
+        color: #fc9003;
     }
 
     .tp-caption a {
-        color: #fc0303;
+        color: #fc9003;
         text-shadow: none;
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
@@ -677,7 +677,7 @@ body,
         -ms-transition: all 0.2s ease-out
     }
     .tp-caption a:hover {
-        color: #fc0303
+        color: #fc9003
     }
 
 
@@ -735,7 +735,7 @@ body,
 
 #wrapper.hasbg .above_top_bar
 {
-    background: #fc0303 !important;
+    background: #fc9003 !important;
     background: rgba(255, 0, 0, 0.9) !important;
     background: rgba(255, 0, 0, 0.9) !important;
 }
@@ -1029,7 +1029,7 @@ html[data-menu=leftmenu] #wrapper
 }
 
 .title-first-word{
-    color:#fc0303 !important ;
+    color:#fc9003 !important ;
 }
 
 /* .menu-image img{
@@ -1041,3 +1041,44 @@ html[data-menu=leftmenu] #wrapper
     width: 400px;
     height: 400px;
 }
+
+.reservation-bar{
+    margin-top: 20%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center
+  }
+  .grid-item {
+   padding: 10px;
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: Lato, Helvetica, Arial, sans-serif;
+  }
+
+
+  
+      /* Mobile View */
+      @media screen and (min-width:250px) and (max-width:480px) {
+        .grid-container{
+          grid-template-columns: repeat(1,1fr);
+        }
+      }
+
+       /* Tablet View */
+       @media screen and (min-width:481px) and (max-width:768px) {
+        .grid-container{
+          grid-template-columns: repeat(2,1fr);
+        }
+      }
+       /* Laptop View */
+       @media screen and (min-width:769px) and (max-width:990px) {
+        .grid-container{
+          grid-template-columns: repeat(3,1fr);
+        }
+      }
