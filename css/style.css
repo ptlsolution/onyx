@@ -1061,6 +1061,10 @@ html[data-menu=leftmenu] #wrapper
    font-family: Lato, Helvetica, Arial, sans-serif;
   }
 
+  .mobile_menu_wrapper{
+    z-index: 10;
+  }
+
 
   
       /* Mobile View */
