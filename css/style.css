@@ -1072,6 +1072,16 @@ html[data-menu=leftmenu] #wrapper
         .grid-container{
           grid-template-columns: repeat(1,1fr);
         }
+        .tp-caption{
+            font-size: 15px !important;
+            line-height: 15px !important;
+        }
+        .ppb_title_first{
+            font-size: 40px !important;
+        }
+        .ppb_title{
+            font-size: 30px !important;
+        }
       }
 
        /* Tablet View */
@@ -1079,10 +1089,30 @@ html[data-menu=leftmenu] #wrapper
         .grid-container{
           grid-template-columns: repeat(2,1fr);
         }
+        .tp-caption{
+            font-size: 15px !important;
+            line-height: 15px !important;
+        }
+        .ppb_title_first{
+            font-size: 50px !important;
+        }
+        .ppb_title{
+            font-size: 40px !important;
+        }
       }
        /* Laptop View */
        @media screen and (min-width:769px) and (max-width:990px) {
         .grid-container{
           grid-template-columns: repeat(3,1fr);
+        }
+        .tp-caption{
+            font-size: 15px !important;
+            line-height: 15px !important;
+        }
+        .ppb_title_first{
+            font-size: 60px !important;
+        }
+        .ppb_title{
+            font-size: 50px !important;
         }
       }
